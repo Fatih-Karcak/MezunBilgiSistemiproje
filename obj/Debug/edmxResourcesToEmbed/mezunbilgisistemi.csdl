@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mezunbilgisistemiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="egitimbilgileri">
+    <Key>
+      <PropertyRef Name="no" />
+    </Key>
+    <Property Name="no" Type="Int32" Nullable="false" />
+    <Property Name="Ogrno" Type="Int32" Nullable="false" />
+    <Property Name="AkademikEgitim" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Baslangic" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Bitis" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Ulke" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Sehir" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Universite" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="mezunlar" Relationship="Self.FK_egitimbilgileri_mezunlar" FromRole="egitimbilgileri" ToRole="mezunlar" />
+  </EntityType>
+  <EntityType Name="isbilgileri">
+    <Key>
+      <PropertyRef Name="no" />
+    </Key>
+    <Property Name="no" Type="Int32" Nullable="false" />
+    <Property Name="Ogrno" Type="Int32" Nullable="false" />
+    <Property Name="IseGirisTarih" Type="DateTime" Precision="0" />
+    <Property Name="IstenAyrilisTar" Type="DateTime" Precision="0" />
+    <Property Name="KamuOzel" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Sektor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Unvan" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Pozisyon" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="mezunlar" Relationship="Self.FK_isbilgileri_mezunlar" FromRole="isbilgileri" ToRole="mezunlar" />
+  </EntityType>
+  <EntityType Name="mezunlar">
+    <Key>
+      <PropertyRef Name="Ogrno" />
+    </Key>
+    <Property Name="Ogrno" Type="Int32" Nullable="false" />
+    <Property Name="Ad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Soyad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="MezuniyetTarih" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Ceptel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Eposta" Type="String" MaxLength="35" FixedLength="false" Unicode="false" />
+    <Property Name="EvTel" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EvUlke" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EvŞehir" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EvAdres" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="egitimbilgileri" Relationship="Self.FK_egitimbilgileri_mezunlar" FromRole="mezunlar" ToRole="egitimbilgileri" />
+    <NavigationProperty Name="isbilgileri" Relationship="Self.FK_isbilgileri_mezunlar" FromRole="mezunlar" ToRole="isbilgileri" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblkullanici">
+    <Key>
+      <PropertyRef Name="sifre" />
+    </Key>
+    <Property Name="kullanıcıad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sifre" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_egitimbilgileri_mezunlar">
+    <End Role="mezunlar" Type="Self.mezunlar" Multiplicity="1" />
+    <End Role="egitimbilgileri" Type="Self.egitimbilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mezunlar">
+        <PropertyRef Name="Ogrno" />
+      </Principal>
+      <Dependent Role="egitimbilgileri">
+        <PropertyRef Name="Ogrno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_isbilgileri_mezunlar">
+    <End Role="mezunlar" Type="Self.mezunlar" Multiplicity="1" />
+    <End Role="isbilgileri" Type="Self.isbilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mezunlar">
+        <PropertyRef Name="Ogrno" />
+      </Principal>
+      <Dependent Role="isbilgileri">
+        <PropertyRef Name="Ogrno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="mezunbilgisistemiEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="egitimbilgileri" EntityType="Self.egitimbilgileri" />
+    <EntitySet Name="isbilgileri" EntityType="Self.isbilgileri" />
+    <EntitySet Name="mezunlar" EntityType="Self.mezunlar" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="tblkullanici" EntityType="Self.tblkullanici" />
+    <AssociationSet Name="FK_egitimbilgileri_mezunlar" Association="Self.FK_egitimbilgileri_mezunlar">
+      <End Role="mezunlar" EntitySet="mezunlar" />
+      <End Role="egitimbilgileri" EntitySet="egitimbilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_isbilgileri_mezunlar" Association="Self.FK_isbilgileri_mezunlar">
+      <End Role="mezunlar" EntitySet="mezunlar" />
+      <End Role="isbilgileri" EntitySet="isbilgileri" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

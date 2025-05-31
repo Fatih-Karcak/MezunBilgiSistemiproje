@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="mezunbilgisistemiModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="egitimbilgileri">
+    <Key>
+      <PropertyRef Name="no" />
+    </Key>
+    <Property Name="no" Type="int" Nullable="false" />
+    <Property Name="Ogrno" Type="int" Nullable="false" />
+    <Property Name="AkademikEgitim" Type="varchar" MaxLength="30" />
+    <Property Name="Baslangic" Type="varchar" MaxLength="30" />
+    <Property Name="Bitis" Type="varchar" MaxLength="30" />
+    <Property Name="Ulke" Type="varchar" MaxLength="30" />
+    <Property Name="Sehir" Type="varchar" MaxLength="30" />
+    <Property Name="Universite" Type="varchar" MaxLength="60" />
+  </EntityType>
+  <EntityType Name="isbilgileri">
+    <Key>
+      <PropertyRef Name="no" />
+    </Key>
+    <Property Name="no" Type="int" Nullable="false" />
+    <Property Name="Ogrno" Type="int" Nullable="false" />
+    <Property Name="IseGirisTarih" Type="date" />
+    <Property Name="IstenAyrilisTar" Type="date" />
+    <Property Name="KamuOzel" Type="varchar" MaxLength="10" />
+    <Property Name="Sektor" Type="varchar" MaxLength="50" />
+    <Property Name="Unvan" Type="varchar" MaxLength="100" />
+    <Property Name="Pozisyon" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="mezunlar">
+    <Key>
+      <PropertyRef Name="Ogrno" />
+    </Key>
+    <Property Name="Ogrno" Type="int" Nullable="false" />
+    <Property Name="Ad" Type="varchar" MaxLength="20" />
+    <Property Name="Soyad" Type="varchar" MaxLength="20" />
+    <Property Name="MezuniyetTarih" Type="varchar" MaxLength="20" />
+    <Property Name="Ceptel" Type="varchar" MaxLength="20" />
+    <Property Name="Eposta" Type="varchar" MaxLength="35" />
+    <Property Name="EvTel" Type="varchar" MaxLength="20" />
+    <Property Name="EvUlke" Type="varchar" MaxLength="20" />
+    <Property Name="EvŞehir" Type="varchar" MaxLength="20" />
+    <Property Name="EvAdres" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tblkullanici">
+    <Key>
+      <PropertyRef Name="sifre" />
+    </Key>
+    <Property Name="kullanıcıad" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="sifre" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_egitimbilgileri_mezunlar">
+    <End Role="mezunlar" Type="Self.mezunlar" Multiplicity="1" />
+    <End Role="egitimbilgileri" Type="Self.egitimbilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mezunlar">
+        <PropertyRef Name="Ogrno" />
+      </Principal>
+      <Dependent Role="egitimbilgileri">
+        <PropertyRef Name="Ogrno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_isbilgileri_mezunlar">
+    <End Role="mezunlar" Type="Self.mezunlar" Multiplicity="1" />
+    <End Role="isbilgileri" Type="Self.isbilgileri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="mezunlar">
+        <PropertyRef Name="Ogrno" />
+      </Principal>
+      <Dependent Role="isbilgileri">
+        <PropertyRef Name="Ogrno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="mezunbilgisistemiModel1StoreContainer">
+    <EntitySet Name="egitimbilgileri" EntityType="Self.egitimbilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="isbilgileri" EntityType="Self.isbilgileri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="mezunlar" EntityType="Self.mezunlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblkullanici" EntityType="Self.tblkullanici" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_egitimbilgileri_mezunlar" Association="Self.FK_egitimbilgileri_mezunlar">
+      <End Role="mezunlar" EntitySet="mezunlar" />
+      <End Role="egitimbilgileri" EntitySet="egitimbilgileri" />
+    </AssociationSet>
+    <AssociationSet Name="FK_isbilgileri_mezunlar" Association="Self.FK_isbilgileri_mezunlar">
+      <End Role="mezunlar" EntitySet="mezunlar" />
+      <End Role="isbilgileri" EntitySet="isbilgileri" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

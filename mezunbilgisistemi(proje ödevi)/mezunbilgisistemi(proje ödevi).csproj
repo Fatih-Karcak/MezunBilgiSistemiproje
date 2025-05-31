@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72BF5F81-786C-45F3-B5FF-DDD683E8184A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>mezunbilgisistemi_proje_ödevi_</RootNamespace>
+    <AssemblyName>mezunbilgisistemi%28proje ödevi%29</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="egitimbilgileri.cs">
+      <DependentUpon>mezunbilgisistemi.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmanasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmanasayfa.Designer.cs">
+      <DependentUpon>frmanasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmegitimbilgileri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmegitimbilgileri.Designer.cs">
+      <DependentUpon>frmegitimbilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmis.Designer.cs">
+      <DependentUpon>frmis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmisbilgileri.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmisbilgileri.Designer.cs">
+      <DependentUpon>frmisbilgileri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmezunekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmezunekle.Designer.cs">
+      <DependentUpon>frmmezunekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmogrrapor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmogrrapor.Designer.cs">
+      <DependentUpon>frmogrrapor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="isbilgileri.cs">
+      <DependentUpon>mezunbilgisistemi.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mezunbilgi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="mezunbilgi.Designer.cs">
+      <DependentUpon>mezunbilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mezunbilgisistemi.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mezunbilgisistemi.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mezunbilgisistemi.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mezunbilgisistemi.tt</DependentUpon>
+    </Compile>
+    <Compile Include="mezunbilgisistemi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>mezunbilgisistemi.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="mezunlar.cs">
+      <DependentUpon>mezunbilgisistemi.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>mezunbilgisistemi.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblkullanici.cs">
+      <DependentUpon>mezunbilgisistemi.tt</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmanasayfa.resx">
+      <DependentUpon>frmanasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmegitimbilgileri.resx">
+      <DependentUpon>frmegitimbilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmis.resx">
+      <DependentUpon>frmis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmisbilgileri.resx">
+      <DependentUpon>frmisbilgileri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmezunekle.resx">
+      <DependentUpon>frmmezunekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmogrrapor.resx">
+      <DependentUpon>frmogrrapor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EntityDeploy Include="mezunbilgisistemi.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>mezunbilgisistemi.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="mezunbilgisistemi.edmx.diagram">
+      <DependentUpon>mezunbilgisistemi.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mezunbilgisistemi.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>mezunbilgisistemi.edmx</DependentUpon>
+      <LastGenOutput>mezunbilgisistemi.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="mezunbilgisistemi.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>mezunbilgisistemi.edmx</DependentUpon>
+      <LastGenOutput>mezunbilgisistemi.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+</Project>

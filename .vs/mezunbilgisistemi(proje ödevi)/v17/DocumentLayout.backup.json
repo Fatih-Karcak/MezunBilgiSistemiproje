@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmmezunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmmezunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmmezunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmmezunekle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmegitimbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmegitimbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|c:\\users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmegitimbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmegitimbilgileri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmogrrapor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmogrrapor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|c:\\users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\mezunbilgisistemi.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:mezunbilgisistemi.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmogrrapor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:frmogrrapor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72BF5F81-786C-45F3-B5FF-DDD683E8184A}|mezunbilgisistemi(proje \u00F6devi).csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmogrrapor.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmogrrapor.cs",
+              "RelativeDocumentMoniker": "frmogrrapor.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmogrrapor.cs",
+              "RelativeToolTip": "frmogrrapor.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAkwEMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:16:21.941Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmis.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmis.cs",
+              "RelativeDocumentMoniker": "frmis.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmis.cs",
+              "RelativeToolTip": "frmis.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAkwJsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:51:17.043Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmis.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmis.cs",
+              "RelativeDocumentMoniker": "frmis.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmis.cs [Tasar\u0131m]",
+              "RelativeToolTip": "frmis.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:50:35.631Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmmezunekle.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmmezunekle.cs",
+              "RelativeDocumentMoniker": "frmmezunekle.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmmezunekle.cs",
+              "RelativeToolTip": "frmmezunekle.cs",
+              "ViewState": "AgIAABwBAAAAAAAAAAAowD4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:32:12.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmmezunekle.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmmezunekle.cs",
+              "RelativeDocumentMoniker": "frmmezunekle.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmmezunekle.cs [Tasar\u0131m]",
+              "RelativeToolTip": "frmmezunekle.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:30:19.054Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmegitimbilgileri.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmegitimbilgileri.cs",
+              "RelativeDocumentMoniker": "frmegitimbilgileri.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmegitimbilgileri.cs [Tasar\u0131m]",
+              "RelativeToolTip": "frmegitimbilgileri.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T19:17:48.772Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmegitimbilgileri.cs",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmegitimbilgileri.cs",
+              "RelativeDocumentMoniker": "frmegitimbilgileri.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmegitimbilgileri.cs",
+              "RelativeToolTip": "frmegitimbilgileri.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAiwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T06:30:57.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "mezunbilgisistemi.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\mezunbilgisistemi.edmx",
+              "RelativeDocumentMoniker": "mezunbilgisistemi.edmx",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\mezunbilgisistemi.edmx [Diagram1]",
+              "RelativeToolTip": "mezunbilgisistemi.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-05-29T06:20:12.595Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmogrrapor.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmogrrapor.cs",
+              "RelativeDocumentMoniker": "frmogrrapor.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\frmogrrapor.cs [Tasar\u0131m]",
+              "RelativeToolTip": "frmogrrapor.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:14:31.972Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\fatih\\source\\repos\\mezunbilgisistemi(proje \u00F6devi)\\Form1.cs [Tasar\u0131m]",
+              "RelativeToolTip": "Form1.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:22:23.884Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

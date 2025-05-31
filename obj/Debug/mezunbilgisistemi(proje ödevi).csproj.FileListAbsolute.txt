@@ -1,0 +1,21 @@
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\mezunbilgisistemi(proje ödevi).exe.config
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\mezunbilgisistemi(proje ödevi).exe
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\mezunbilgisistemi(proje ödevi).pdb
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi(proje ödevi).csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.Form1.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.Properties.Resources.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi(proje ödevi).csproj.GenerateResource.cache
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi(proje ödevi).csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi(proje ödevi).exe
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi(proje ödevi).pdb
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\EntityFramework.dll
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\EntityFramework.xml
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbil.61000CA2.Up2Date
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.frmanasayfa.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.frmmezunekle.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.frmegitimbilgileri.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.frmogrrapor.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.frmis.resources
+C:\Users\fatih\source\repos\mezunbilgisistemi(proje ödevi)\obj\Debug\mezunbilgisistemi_proje_ödevi_.frmisbilgileri.resources
